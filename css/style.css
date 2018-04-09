@@ -23,6 +23,11 @@ h1{
 	font-size: 6.5em;
 }
 
+h2{
+	margin: 2% 0;
+	font-size: 3.5em;
+}
+
 p{
 	margin: 2% 0;
 	font-size: 1.5em;
@@ -62,4 +67,19 @@ p{
 	width: 100%;
 	height: 300px;
 	background: #00008B;
+}
+
+.resize{
+	height: 567px;
+	width: 600px;
+	border-radius: 50%;
+	display: block;
+    margin: auto;
+    padding: 4%;
+
+}
+
+.about{
+	margin-top: 2%;
+	padding: 4%;
 }
