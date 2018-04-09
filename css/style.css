@@ -1,0 +1,29 @@
+.blanco{
+    color: white;
+}
+
+.blancoder{
+    color: white;
+}
+
+.black{
+	background-color: black;
+	height: 800px;
+}
+
+.texto--header{
+	text-align: center;
+	margin-top: 15%;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+	margin: 2% 0;
+	font-size: 6.5em;
+}
+
+p{
+	margin: 2% 0;
+	font-size: 1.5em;
+}
