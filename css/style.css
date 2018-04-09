@@ -83,3 +83,54 @@ p{
 	margin-top: 2%;
 	padding: 4%;
 }
+
+
+.svg-inline--fa{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 7px; 
+    margin-right: 3px;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: .875em;
+    padding: 0px;
+    border-radius: 0px;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+ }
+
+.svg-inline--fa.fa-instagram.fa-w-14.fa-3x{
+    color:  white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 7px; 
+    margin-right: 3px;
+}
+
+.svg-inline--fa.fa-facebook.fa-w-14.fa-3x{
+    color:  white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 7px; 
+    margin-right: 3px;
+}
+
+
+
+footer{
+    background-color: black;  
+    color:  white; 
+    padding: 20px;
+    text-align: center; 
+}
+
+.bloquefooter{
+    display: inline-block;
+}
+
+.nombre{
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
