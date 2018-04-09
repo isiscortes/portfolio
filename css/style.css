@@ -27,3 +27,39 @@ p{
 	margin: 2% 0;
 	font-size: 1.5em;
 }
+
+.yellow {
+	width: 100%;
+	height: 300px;
+	background: yellow;
+}
+
+.pink {
+	width: 100%;
+	height: 300px;
+	background: #FFC0CB;
+}
+
+.red {
+	width: 100%;
+	height: 300px;
+	background: red;
+}
+
+.gris {
+	width: 100%;
+	height: 300px;
+	background: #C0C0C0;
+}
+
+.verde {
+	width: 100%;
+	height: 300px;
+	background: #40E0D0;
+}
+
+.azul {
+	width: 100%;
+	height: 300px;
+	background: #00008B;
+}
