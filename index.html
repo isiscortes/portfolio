@@ -3,82 +3,189 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Isis Cortes</title>
-	<link rel ="stylesheet" href="css/style.css">
-	<link rel ="stylesheet" href="css/grid.css">
+
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+	<link rel ="html" href="html/about.html">
+	<link rel ="html" href="html/animation.html">
+	<link rel ="html" href="html/branding.html">
+	<link rel ="html" href="html/film.html">
+	<link rel ="html" href="html/showreel.html">
+	<link rel ="html" href="html/vfx.html">
+	<link rel ="html" href="html/vr.html">
 </head>
 <body>
+	<div class="container-fluid">
 	<header>
-		<nav class="black">
-			<div class="row">
-				<div class="col-11 blanco">
-					<i class="fas fa-bars fa-3x blanco"></i>
-				</div>
-				<div class="col-1 blancoder">
-						<i class="fab fa-adversal fa-3x "></i>
-				</div>
+		<nav role="navigation">
+			<div class="nav-wrapper container ">
+				<a href="#" data-activates="mobile-demo" class="button-collapse left"><i class="material-icons">menu</i></a>
+				<ul class="left hide-on-med-and-down">
+					<li><a class="navdesktop" href="#portfolio">PORTFOLIO</a></li>
+					<li><a class="navdesktop" href="#about">ABOUT</a></li>
+					<li><a class="navdesktop" href="#contact">CONTACT</a></li>
+				</ul>
+				<a id="logo-container" href="#" class="brand-logo bold right">FREELANCER</a>
 			</div>
+
+		<ul class="side-nav" id="mobile-demo">
+			<li><a href="#portfolio"><p>PORTFOLIO</p></a></li>
+			<li><a href="#about"><p>ABOUT</p></a></li>
+			<li><a href="#contact"><p>CONTACT</p></a></li>
+		</ul>
+
+		</nav>
+
+		<section class="fondonegro">
 			<div class="row">
-				<div class="col-12 texto--header">
+				<div class="col s12 m12 l12 texto--header">
 					<h1> Isis Cortes </h1>
-					<p> PORTFOLIO </p>
 				</div>
-		 </nav>
+		 </section>
+
 	</header>
+	<section class="row" id="portfolio">
+		<div class="col s12 m12 l12">
+			<h2 class="center">Portfolio</h2>
+			<hr class="texto--centrado">
+			<div class="center texto--centrado">
+				<a class="texto--centrado" href="html/photography.html">Photography</a><span> / <a class="texto--centrado" href="html/film.html"> Film</a></span><span > / <a class="texto--centrado" href="html/animation.html"> Animation</a></span><span > / <a class="texto--centrado" href="html/design.html"> Graphics</a></span><span > / <a class="texto--centrado" href="html/web.html"> Web Development</a></span><span > / <a class="texto--centrado" href="html/vfx.html"> VFX</a></span>
+			</div>
+		</div>
+	</section>
 	<section>
 		<div class="row">
-				<div class="col-4 yellow">
+				<div class="col s12 m6 l4">
+					<a href="html/graphics.html"><img class="portfolioimg" src="img/design.jpg" alt="graphics"></a>
 				</div>
-				<div class="col-4 pink">
+				<div class="col s12 m6 l4">
+					<a href="html/animation.html"><img class="portfolioimg" src="img/animation.jpg" alt="animation"></a>
 				</div>
-				<div class="col-4 red">
-				</div>	
-		</div>
-		<div class="row">
-				<div class="col-4 gris">
+				<div class="col s12 m6 l4 ">
+					<a href="html/vfx.html"><img class="portfolioimg" src="img/vfx.jpg" alt="vfx"></a>
 				</div>
-				<div class="col-4 verde">
+				<div class="col s12 m6 l4 ">
+					<a href="html/film.html"><img class="portfolioimg " src="img/film.jpg" alt="film"></a>
 				</div>
-				<div class="col-4 azul">
-				</div>	
+				<div class="col s12 m6 l4 ">
+					<a href="html/photography.html"><img class="portfolioimg" src="img/photography.jpg" alt="photography"></a>
+				</div>
+				<div class="col s12 m6 l4">
+					<a href="html/web.html"><img class="portfolioimg" src="img/web.jpg" alt="web development"></a>
+				</div>
 		</div>			
 	</section>
-	<section>
+	</div>
+	<section class="container">
 		<div class="about">
 			<div class="row">
-				<div class="col-6">
+				<div class="col s12 m12 l6" id="about">
 					<h2> About </h2>
-					<p>Isis Cortes immersed herself in a world of commercial photography as a model in San Francisco in 2005. High fashion and an international lifestyle (living and working in Vancouver, Amsterdam, Paris, Milan, and Hawaii) shaped her photographic style to become vibrant, dynamic, and conceptual.</p>
-					<p>Clients include Wired Magazine, Hi-Fructose, Swarovski, Urban Outfitters, Fab, Conde Nast Traveller, Marie Claire, Allure, L’Officiel, Virgin Airlines, Samsung, Lomography, Yahoo, NY Times, LaqaCo, Vanya Spirit, Society6, Interscope Records and many musicians. Her fine art photography has been sold at the world-famous boutique Colette Paris, Urban Outfitters Apartment Print Shop, and art galleries.</p> 
-					<p> She currently resides in Los Angeles, California. </p>
+					<hr class="left">
+					<br>
+					<p class="txt_about">Isis Cortes immersed herself in the world of animation and programming while studying her Bachelor's Degree of Animation and Digital Art at ITESM CEM (Monterrey Higher Institute of Technology). High fashion and an international lifestyle (living in Mexico City, London, Amsterdam, Boston, Budapest, Barcelona, Madrid, Milan, and Rio de Janeiro) shaped her creative eye to become vibrant, dynamic, and conceptual.</p>
+					<p class="txt_about">Clients include UPSOCL, FastMag (Formula1), Interjet, America Movil, World Wide Fund for Nature (WWF), Museo Soumaya and Los Espiritus de Gante. Her fine art  has been sold and presented at different galleries around the world including the Museum of Fine Arts Boston, the Institute of Contemporary Art Boston, Isabella Gardner's Museum and Casa Lamm.</p> 
+					<p class="txt_about"> She currently resides in York, United Kingdom.</p>
+					<a href="html/about.html"><p> Read more...</p></a>
 				</div>
-				<div class="col-6">
-					<img class="resize" src="./img/about.jpg" alt="portrait smiling isis cortes">
+				<div class="col s12 m12 l6">
+					<img class="aboutimg" src="./img/about.jpg" alt="portrait smiling isis cortes">
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col s12 m12 l6">
+				<h2>CONTACT ME</h2>
+				<p>FOR ANY INQUIRY</p>
+			</div>
+			<div class="col s12 m12 l6">
+				<form>
+					<div class="row">
+						<form class="col s12">
+							<div class="row">
+								<div class="input-field col s6">
+									<input id="first_name" type="text" class="validate">
+									<label for="first_name">First Name</label>
+								</div>
+								<div class="input-field col s6">
+									<input id="last_name" type="text" class="validate">
+									<label for="last_name">Last Name</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="input-field col s12">
+									<input id="email" type="email" class="validate">
+									<label for="email">Email</label>
+							    </div>
+							</div>
+							<div class="row">
+								<form class="col s12">
+									<div class="row">
+										<div class="input-field col s6">
+											<input id="input_text" type="text" data-length="10">
+											<label for="input_text">Subject</label>
+							            </div>
+							        </div>
+							        <div class="row">
+							        	<div class="input-field col s12">
+							        		<textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+							        		<label for="textarea2">Message</label>
+							            </div>
+							        </div>
+							        <button> Send </button>
+							    </form>
+							</div>
+						</form>
+					</div>
+				</form>
+			</div>
+		</div>
+		
 	</section>
+
 	<footer> 
 		<div class="row">
-			<div class="col-12">
+			<div class="col s12 m12 l12">
 				<div class="texto--centrado">
-					<p></p>
-				</div>
-				<div class="texto--centrado">
-					<h2 class="blanco"> Contact me - hello@eoriart.com</h2>
+					<h2 class="blanco" id="contact"> Let's talk - icortes.sauza@gmail.com</h2>
 				</div>
 				<div class="bloquefooter">
-					<i class="fab fa-vimeo fa-3x"></i>
-					<i class="fab fa-facebook fa-3x"></i>
-					<i class="fab fa-instagram fa-3x"></i>
-					<i class="fab fa-behance fa-3x"></i>
+					<a href="https://vimeo.com/user12282037"><i class="fab fa-vimeo fa-3x"></i></a>
+					<a href="https://www.linkedin.com/in/isiscortes/"><i class="fab fa-linkedin fa-3x"></i></a>
+					<a href ="https://github.com/isiscortes"><i class="fab fa-github fa-3x"></i></a>
+					<a href="https://www.behance.net/isiscortes"><i class="fab fa-behance fa-3x"></i></a>
 					<p class="bloquefooter texto--centrado"> WEB DEVELOPMENT:<span class="nombre"> ISIS CORTES </span></p>
 				</div>
-				
 			</div>
 		</div>
 			
 	</footer>
-<script defer src= "https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script defer src= "https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+      <script>
+        $(document).ready(function(){
+
+          // Init Modal
+        $(".modal").modal();
+ 		});
+    </script>
+    <script type="text/javascript">
+    $(function (){
+        $(".button-collapse").sideNav();
+        });
+      </script>
+      <script type="text/javascript">
+      	$(document).ready(function() {
+      	  $('input#input_text, textarea#textarea2').characterCounter();
+      	  $('#textarea1').val('New Text');
+      	  M.textareaAutoResize($('#textarea1'));
+      	  });
+      </script>
 </body>
 </html>
