@@ -1,0 +1,447 @@
+#skills-oculto {
+  display: none;
+  visibility: hidden;
+}
+
+#section3 {
+  background-color: #212121;
+  font-family: 'Bebas Neue';
+  padding-bottom: 0%;
+  text-align: center;
+}
+
+
+#section3 .fp-tableCell {
+  vertical-align: top !important;
+}
+#section3 .section-title {
+  position: relative;
+  padding-top: 5%;
+}
+#section3 .section-title h2 {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+}
+#section3 .section-title h2 .skill-1 {
+  color: #536DFE;
+}
+#section3 .section-title .title-line {
+  background-color: #FFFFFF;
+  height: 3px;
+  margin: 0 auto;
+  width: 50px;
+  position: relative;
+  top: 5px;
+}
+#section3 #skills {
+  bottom: 35px;
+  left: 5%;
+  height: 75%;
+  position: absolute;
+  width: 1000px;
+}
+#section3 #skills .skill-average-1 {
+  left: 270px;
+}
+#section3 #skills .skill-average-2 {
+  left: 420px;
+}
+#section3 #skills .skill-average-3 {
+  left: 570px;
+}
+#section3 #skills .skill-average-4 {
+  left: 720px;
+}
+#section3 #skills .skill-average-5 {
+  left: 870px;
+}
+#section3 #skills .skill-average {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+}
+#section3 #skills .skill-average .skill-average-txt {
+  position: absolute;
+  padding: 6px 10px 5px;
+  background-color: #536DFE;
+  font-family: 'Montserrat';
+  color: #212121;
+  font-size: 18px;
+}
+#section3 #skills .skill-average .skill-average-line {
+  position: absolute;
+  width: 1px;
+  height: 120%;
+  background-color: #536DFE;
+}
+#section3 #skills #ability-txt-container {
+  position: absolute;
+  top: 83px;
+  left: -15%;
+  width: 360px;
+  height: 440px;
+  background-color: #212121;
+}
+#section3 #skills #ability-txt-container .ability-cinta-container {
+  position: absolute;
+  height: 40px;
+  right: 0%;
+}
+#section3 #skills #ability-txt-container .ability-cinta-container .cinta-left {
+  position: relative;
+  float: left;
+  width: 20px;
+  height: 40px;
+  margin-right: -1px;
+  background-image: url(../cinta-left.png);
+}
+#section3 #skills #ability-txt-container .ability-cinta-container .cinta-center {
+  position: relative;
+  float: left;
+  height: 40px;
+  padding-top: 13px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: #009688;
+  font-family: 'Montserrat';
+  color: #fff;
+  font-size: 16px;
+}
+#section3 #skills #ability-txt-container .ability-cinta-container .cinta-right {
+  position: relative;
+  float: left;
+  width: 20px;
+  height: 40px;
+  margin-left: -1px;
+  background-image: url(../cinta-right.png);
+}
+#section3 #skills #ability-txt-container #ability-cinta-container-1 {
+  top: 0;
+}
+#section3 #skills #ability-txt-container #ability-cinta-container-2 {
+  top: 100px;
+}
+#section3 #skills #ability-txt-container #ability-cinta-container-3 {
+  top: 200px;
+}
+#section3 #skills #ability-txt-container #ability-cinta-container-4 {
+  top: 300px;
+}
+#section3 #skills #level-container {
+  position: absolute;
+  left: 270px;
+  top: 50px;
+  width: 725px;
+  height: 493px;
+}
+#section3 #skills .laser {
+  height: 40px;
+  overflow: hidden;
+  position: absolute;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+#section3 #skills #laser-1 {
+  left: 0px;
+  top: 35px;
+  width: 450px;
+}
+#section3 #skills #laser-1 .laser-mango {
+  background-image: url(../img/skills-average-1-glow.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  width: 100px;
+  height: 40px;
+  overflow: hidden;
+  float: left;
+}
+#section3 #skills #laser-1 .laser-luz {
+  background-image: url(../img/skills-average-1-glow.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: 0px;
+  height: 40px;
+  overflow: hidden;
+  float: left;
+}
+#section3 #skills #laser-2 {
+  left: 0px;
+  top: 135px;
+  width: 450px;
+}
+#section3 #skills #laser-2 .laser-mango {
+  background-image: url(../img/skills-average-1-glow.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  width: 100px;
+  height: 40px;
+  overflow: hidden;
+  float: left;
+}
+#section3 #skills #laser-2 .laser-luz {
+  background-image: url(../img/skills-average-1-glow.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: 0px;
+  height: 40px;
+  overflow: hidden;
+  float: left;
+}
+#section3 #skills #laser-3 {
+  left: 0px;
+  top: 235px;
+  width: 300px;
+}
+#section3 #skills #laser-3 .laser-mango {
+  background-image: url(../img/skills-average-1-glow.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  width: 100px;
+  height: 40px;
+  overflow: hidden;
+  float: left;
+}
+#section3 #skills #laser-3 .laser-luz {
+  background-image: url(../img/skills-average-1-glow.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: 0px;
+  height: 40px;
+  overflow: hidden;
+  float: left;
+}
+#section3 #skills #laser-4 {
+  left: 0px;
+  top: 335px;
+  width: 300px;
+}
+#section3 #skills #laser-4 .laser-mango {
+  background-image: url(../img/icons/skills-average-1-glow.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  width: 100px;
+  height: 40px;
+  overflow: hidden;
+  float: left;
+}
+#section3 #skills #laser-4 .laser-luz {
+  background-image: url(../img/skills-average-1-glow.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: 0px;
+  height: 40px;
+  overflow: hidden;
+  float: left;
+}
+
+#section4 {
+  font-family: 'Bebas Neue';
+  padding-bottom: 0%;
+  text-align: center;
+  position: relative;
+}
+
+#section4 .fp-tableCell {
+  vertical-align: top !important;
+}
+#section4 .section-title {
+  position: relative;
+  padding-top: 5%;
+}
+#section4 .section-title h2 {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+}
+#section4 .section-title h2 .skills-2 {
+  color: #8BC34A;
+}
+#section4 .section-title .title-line {
+  background-color: #FFFFFF;
+  height: 3px;
+  margin: 0 auto;
+  width: 50px;
+  position: relative;
+  top: 5px;
+}
+#section4 #skills {
+  bottom: 35px;
+  left: 5%;
+  height: 75%;
+  position: absolute;
+  width: 1000px;
+}
+#section4 #skills .skill-average-1 {
+  left: 270px;
+}
+#section4 #skills .skill-average-2 {
+  left: 420px;
+}
+#section4 #skills .skill-average-3 {
+  left: 570px;
+}
+#section4 #skills .skill-average-4 {
+  left: 720px;
+}
+#section4 #skills .skill-average-5 {
+  left: 870px;
+}
+#section4 #skills .skill-average {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+}
+#section4 #skills .skill-average .skill-average-txt {
+  position: absolute;
+  padding: 6px 10px 5px;
+  background-color: #8BC34A;
+  font-family: 'Montserrat';
+  color: #212121;
+  font-size: 18px;
+}
+#section4 #skills .skill-average .skill-average-line {
+  position: absolute;
+  width: 1px;
+  height: 120%;
+  background-color: #8BC34A;
+}
+#section4 #skills #ability-txt-container {
+  position: absolute;
+  top: 83px;
+  left: -15%;
+  width: 360px;
+  height: 440px;
+}
+#section4 #skills #ability-txt-container .ability-cinta-container {
+  position: absolute;
+  height: 40px;
+  right: 0%;
+}
+#section4 #skills #ability-txt-container .ability-cinta-container .cinta-left {
+  position: relative;
+  float: left;
+  width: 20px;
+  height: 40px;
+  margin-right: -1px;
+  background-image: url(../img/cinta-left-blue.png);
+}
+#section4 #skills #ability-txt-container .ability-cinta-container .cinta-center {
+  position: relative;
+  float: left;
+  height: 40px;
+  padding-top: 13px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: #3F51B5;
+  font-family: 'Montserrat';
+  color: #fff;
+  font-size: 16px;
+}
+#section4 #skills #ability-txt-container .ability-cinta-container .cinta-right {
+  position: relative;
+  float: left;
+  width: 20px;
+  height: 40px;
+  margin-left: -1px;
+  background-image: url(../img/cinta-right-blue.png);
+}
+#section4 #skills #ability-txt-container #ability-cinta-container-1 {
+  top: 0;
+}
+#section4 #skills #ability-txt-container #ability-cinta-container-2 {
+  top: 100px;
+}
+#section4 #skills #ability-txt-container #ability-cinta-container-3 {
+  top: 200px;
+}
+#section4 #skills #ability-txt-container #ability-cinta-container-4 {
+  top: 300px;
+}
+#section4 #skills #level-container {
+  position: absolute;
+  left: 270px;
+  top: 50px;
+  width: 725px;
+  height: 493px;
+}
+#section4 #skills .rocket {
+  height: 70px;
+  overflow: hidden;
+  position: absolute;
+}
+#section4 #skills .rocket-humo {
+  background-image: url(../img/rocket.png);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  width: 35px;
+  height: 60px;
+  overflow: hidden;
+  float: left;
+}
+#section4 #skills .rocket-nave {
+  background-image: url(../img/rocket.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: 70px;
+  height: 60px;
+  overflow: hidden;
+  float: left;
+}
+#section4 #skills #rocket-1 {
+  left: 0px;
+  top: 15px;
+  width: 550px;
+  height: 60px;
+}
+#section4 #skills #rocket-2 {
+  left: 0px;
+  top: 115px;
+  width: 550px;
+  height: 60px;
+}
+#section4 #skills #rocket-3 {
+  left: 0px;
+  top: 220px;
+  width: 550px;
+  height: 60px;
+}
+#section4 #skills #rocket-4 {
+  left: 0px;
+  top: 325px;
+  width: 550px;
+  height: 60px;
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../font/BebasNeue.eot?#iefix') format('embedded-opentype'),  url('../font/BebasNeue.otf')  format('opentype'),
+       url('../font/BebasNeue.woff') format('woff'), url('../font/BebasNeue.ttf')  format('truetype'), url('../font/BebasNeue.svg#BebasNeue') format('svg');
+  font-weight: normal;
+  font-style: normal;
+ }
+
+ @font-face {
+
+  font-family: 'ITCAvantGardePro-Bold';
+  src: url('../font/ITCAvantGardePro-Bold.eot?#iefix') format('embedded-opentype'),  url('../font/ITCAvantGardePro-Bold.otf')  format('opentype'),
+       url('../font/ITCAvantGardePro-Bold.woff') format('woff'), url('../font/ITCAvantGardePro-Bold.ttf')  format('truetype'), url('../font/ITCAvantGardePro-Bold.svg#ITCAvantGardePro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ITCAvantGardePro-Bk';
+  src: url('../font/ITCAvantGardePro-Bk.eot?#iefix') format('embedded-opentype'),  url('../font/ITCAvantGardePro-Bk.otf')  format('opentype'),
+       url('../font/ITCAvantGardePro-Bk.woff') format('woff'), url('../font/ITCAvantGardePro-Bk.ttf')  format('truetype'), url('../font/ITCAvantGardePro-Bk.svg#ITCAvantGardePro-Bk') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

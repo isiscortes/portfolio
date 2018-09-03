@@ -1,3 +1,4 @@
+
 nav .bold {
   font-weight: bold;
   color: white; }
@@ -5,9 +6,21 @@ nav {
   color: white;
   background-color: black; }
 
-a:link {
+nav a:link {
   text-decoration: none;
   margin-right: 2%;
+}
+
+.gs{
+  width: 100%;
+}
+
+.ab{
+  background-color: black;
+
+}
+.mp{
+  margin:2%;
 }
 
 hr {
@@ -103,10 +116,9 @@ i {
 
 .portfolioimg {
   width: 100%;
-  padding: 3%;
   display: block;
   margin: auto;
-  background-size: 90% 90%; }
+  background-size: 100% 100%; }
 
  .aboutimg {
  	width: 100%;
@@ -122,6 +134,30 @@ i {
 p{
   color:#525252;
 }
+
+
+.ma{
+  max-width: 425px;
+  padding: 4%;
+
+}
+
+
+.btnv{
+  background-color:#283593;
+  color: white;
+  display: block;
+  margin: auto;
+  width: 199px;
+  border-radius: 10px;
+  padding: 6px 13px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.btnv:hover {background-color:#5e35b1  ;}
 
 .skillbar {
   position:relative;
@@ -233,9 +269,8 @@ iframe{
   height: 450px;
 }
 .fondo{
-  background-image: url(../img/stripes.jpg);
-  height: 1200px;
-  background-size: 100% 100%;
+  height: 600px;
+  background-color: black;
 }
 .txtpadding{
   margin-left: 5%;
@@ -255,10 +290,9 @@ footer {
   }
 
 img {
-    text-align: center;
     display: block;
     margin: auto; 
-    margin-bottom: 1%;
+    justify-content: center;
   }
 
 .i_slider{
@@ -268,6 +302,10 @@ img {
   padding: 2%;
 }
 
+.slides{
+  width: 100%;
+  height: auto;
+}
 /*Hover Effect*/
 
 .hovereffect {
@@ -278,6 +316,11 @@ img {
   position: relative;
   text-align: center;
   cursor: pointer;
+  position: relative;
+}
+
+.absoluto{
+  position: absolute;
 }
 
 .hovereffect .overlay {
@@ -336,17 +379,43 @@ img {
   transition-delay: 0.5s;
 }
 
+.row .col{
+  padding: 0px !important;
+}
+
+.margenes{
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 /*Celular*/
 
+
+@media only screen and (min-width: 200px) and (max-width: 600px){
+
+.aboutimg{
+  display: none;
+}
+
+
+.gs{
+ display: none;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+
+}
 
 @media only screen and (min-width: 601px){
 .posicionc{
   margin-top: 5%;
 }
 
-footer h2{
-  font-size: 2em;
+h2{
+  font-size: 1.5em;
 }
 
 .txtpadding{
@@ -361,10 +430,20 @@ footer h2{
   text-align: center;
   position: absolute;
   width: 100%;
-  top: 50px;
+  top: 70px;
   left: 0;
+  font-size: 1.5em;
   margin: auto;
   background: rgba(0, 0, 0, 0.6);
+}
+
+
+.gs{
+  width: 100%;
+  display: block;
+}
+.aboutimg{
+	display: none;
 }
 
 }
@@ -375,8 +454,8 @@ footer h2{
   margin-top: 5%;
 }
 
-footer h2{
-  font-size: 2.5em;
+h2{
+  font-size: 2em;
 }
 
 .txtpadding{
@@ -393,12 +472,25 @@ footer h2{
   width: 100%;
   top: 100px;
   left: 0;
+  font-size: 2em;
   margin: auto;
   background: rgba(0, 0, 0, 0.6);
 }
 
+.aboutimg{
+	display: none;
 }
 
+
+.gs{
+  width: 100%;
+  display: block;
+}
+
+
+
+
+}
 
 /*Laptop*/
 @media screen and (min-width: 992px) and (max-width: 1200px){
@@ -419,10 +511,32 @@ footer h2{
   top: 100px;
   left: 0;
   margin: auto;
+  font-size: 2em;
   background: rgba(0, 0, 0, 0.6);
 }
 
+ .aboutimg {
+  width: 100%;
+  display: block;
+  margin: auto;
+  background-size: 70% 70%;
+    background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 2px solid #808080;
+  padding: 10px; 
 }
+
+.gs{
+  width: 100%;
+  display: block;
+}
+
+h2 {
+  font-size: 3.5em;
+  font-family: "Source Sans Pro", sans-serif; }
+
+}
+
 
 
 /*Desktop*/
@@ -448,5 +562,29 @@ footer h2{
   background: rgba(0, 0, 0, 0.6);
 }
 
+ .aboutimg {
+ 	width: 100%;
+ 	display: block;
+ 	margin: auto;
+ 	background-size: 70% 70%;
+    background-repeat: no-repeat;
+	border-radius: 50%;
+	border: 2px solid #808080;
+  padding: 10px; 
 }
+
+.gs{
+  width: 100%;
+  display: block;
+}
+
+
+h2 {
+  font-size: 3.5em;
+  font-family: "Source Sans Pro", sans-serif; }
+
+}
+
+
 /*# sourceMappingURL=style.css.map */
+

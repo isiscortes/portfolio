@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Isis Cortes </title>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -10,6 +11,7 @@
 	<link rel="stylesheet" href="animate.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<div class="container-fluid">
 	<header>
@@ -23,13 +25,11 @@
 				</ul>
 				<a id="logo-container" href="#" class="brand-logo bold right">eori.art</a>
 			</div>
-
 		<ul class="side-nav" id="mobile-demo">
 			<li><a href="#portfolio"><p>PORTFOLIO</p></a></li>
 			<li><a href="#about"><p>ABOUT</p></a></li>
 			<li><a href="#contact"><p>CONTACT</p></a></li>
 		</ul>
-
 		</nav>
 	</header>
 	<div class="row fondonegro">
@@ -42,13 +42,13 @@
 	</div>
 	<section class="row"  id="portfolio">
 		<div class="col s12 m12 l12 texto--centrado">
-			<h2 class="c">Hi! I'm Eori and I make lots of stuff:</h2>
+			<h2 >Hi! I'm Eori and I make lots of stuff:</h2>
 			<h5 class="cnavy">
 			<a href="html/graphics.html" >Graphics </a> / <a href="html/animation.html" >Animation </a>/<a href="html/vfx.html" > VFX </a>/ <a href="html/photography.html" >Photography</a> / <a href="html/film.html" >Film</a>/ <a href="html/web.html" >Front End</a></h5>
 		</div>
 	</section>
 
-	<section>
+	<section class="margenes">
 		<div class="row">
 			<div class="col s12 m6 l4">
 				<div class="hovereffect">
@@ -101,6 +101,7 @@
 				</div>
 		</div>			
 	</section>
+
 	<section class="black">
 		<div class="about">
 			<div class="row">
@@ -126,23 +127,23 @@
 				<h2 class="texto--centrado posicionc">CONTACT ME</h2>
 				<p class="texto--centrado posicionc">FOR ANY INQUIRY</p>
 			</div>
-			<div class="col s12 m12 l6 padding">
-				<form>
+			<div class="col s12 m12 l6 ">
+				<form action="datos.php" method="post">
 					<div class="row">
 						<form class="col s12 m12 l6">
-							<div class="row">
+							<div class="row ">
 								<div class="input-field col s12 m12 l6">
-									<input id="first_name" type="text" class="validate">
+									<input id="first_name" name="nombre" type="text" class="validate">
 									<label for="first_name">First Name</label>
 								</div>
 								<div class="input-field col s12 m12 l6">
-									<input id="last_name" type="text" class="validate">
+									<input id="last_name"  name="apellido" type="text" class="validate">
 									<label for="last_name">Last Name</label>
 								</div>
 							</div>
 							<div class="row">
 								<div class="input-field col s12">
-									<input id="email" type="email" class="validate">
+									<input id="email"  name="email" type="email" class="validate">
 									<label for="email">Email</label>
 							    </div>
 							</div>
@@ -150,17 +151,17 @@
 								<form class="col s12">
 									<div class="row">
 										<div class="input-field col s6">
-											<input id="input_text" type="text" data-length="10">
+											<input  name="subject" id="input_text" type="text" data-length="10">
 											<label for="input_text">Subject</label>
 							            </div>
 							        </div>
 							        <div class="row">
 							        	<div class="input-field col s12">
-							        		<textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+							        		<textarea  name="txtarea" id="textarea2" class="materialize-textarea" data-length="120"></textarea>
 							        		<label for="textarea2">Message</label>
 							            </div>
 							        </div>
-							        <a class="waves-effect waves-light btn"><i class="material-icons left">send</i>Send</a>
+							        <input type="submit" class="waves-effect waves-light btn" value="Send"/>
 
 							    </form>
 							</div>
@@ -191,11 +192,11 @@
 		</div>
 			
 	</footer>
+
 	<script defer src= "https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<!--Import jQuery before materialize.js-->
+	<!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-
       <script type="text/javascript" src="js/main.js"></script>
       <script>
         $(document).ready(function(){
